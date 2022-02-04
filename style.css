@@ -1,0 +1,35 @@
+
+header, nav, aside, footer{
+  margin: 5px 0px 5px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ccc
+}
+body{
+background-color: rgb(242, 233, 228);
+}
+header{
+  width: 48%;
+  text-align: left;
+}
+nav h2{
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+aside:nth-child(1){
+  width: 28%;
+  height: 750px;
+ 
+}
+aside:nth-child(2){
+  width: 70%;
+  float: right;
+  height: 750px;
+}
+footer{
+  height: 100px;
+  float: right;
+  text-align: right;
+}

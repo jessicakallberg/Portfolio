@@ -1,0 +1,122 @@
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(242, 233, 228);
+  padding: 0;
+  margin: 0;
+  }
+
+header{
+  color: aliceblue;
+  background-color: #414833; 
+  justify-content: center;
+  }
+
+header::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header div{
+  display: inline-block;
+  background-color: aqua;
+  color: #414833 ;
+}
+nav{
+  text-align: center;
+  float: right;
+  text-align: right;
+  height: 50px;
+}
+ul{
+  list-style: none;
+  display: inline-block
+}
+li{
+  display: inline;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  color: inherit
+}
+/*
+.section-1{
+  height: 145px;
+  text-align: center;
+  border: 2px solid rgb(236, 221, 6)
+}
+.aside-1{
+  width: 28%;
+  height: 700px;
+  text-align: right;
+}
+.about-me{
+border: 1px solid purple;
+height: 200px;
+}
+.aside-1 .work{
+  border: 1px solid purple;
+  height: 440px;
+}
+.aside-2{
+  height: 700px;
+  float: right;
+  width: 65%;
+  padding-right: 125px
+}
+.aside-2 p{
+  padding-bottom: 10px;
+  border: 1px solid rgb(247, 10, 176)
+}
+.image-1{
+  width: 100%;
+  height: 220px;
+  float: right;
+  border: 1px solid rgb(247, 10, 176)
+}
+.image-2{
+  width: 50%;
+  height: 100px;
+  float: left;
+  border: 1px solid rgb(247, 10, 176)
+}
+.image-3{
+  width: 49.5%;
+  height: 100px;
+  float: right;
+  border: 1px solid rgb(247, 10, 176)
+}
+.image-4{
+width: 50%;
+height: 100px;
+float: left;
+border: 1px solid rgb(247, 10, 176)
+}
+.image-5{
+width: 49.5%;
+height: 100px;
+float: right;
+border: 1px solid rgb(247, 10, 176)
+}
+.aside-3{
+  width: 28%;
+  height: 100px;
+  text-align: right;
+  float: left;
+}
+.nav2{ 
+  padding-right: 500px;
+  width: 60%;
+  border: 1px solid chartreuse
+}
+footer{
+  padding-right: 30px;
+  float: right;
+  width: 70%;
+  height: 100px;
+  text-align: right;
+  border: 1px solid #ccc;
+}
+* /
