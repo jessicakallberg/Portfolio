@@ -34,15 +34,18 @@ nav{
   float: right;
   text-align: right;
 }
+
 ul{
   margin-top: 30px;
   list-style: none;
   display: inline-block
 }
+
 li{
   display: inline;
   margin: 20px;
 }
+
 a{
   font-weight: bolder;
   text-decoration: underline;
@@ -50,7 +53,7 @@ a{
 }
 
 /*Decorative Pattern*/
-section div{
+.pattern{
   border-bottom: 5px solid #c9ada7;
   background-color: #22223b;
   opacity: 0.8;
@@ -60,42 +63,98 @@ section div{
   text-align: right;
 }
 
-.section-2{
-  
-}
+#space{
+  height: 25px;
+} 
 
-.article-1{
-  margin-top: 0;
-  color: #22223b;
+/* About me section*/
+.box-1{
   padding-right: 5px;
+  display: inline-block;
+  color: #22223b;
   border-right: 5px solid #22223B ;
   font-size: x-large;
-  width: 28%;
-  height: 150px;
+  width: 20%;
+  height: 160px;
   text-align: right;
 }
-aside{
+
+.box-2{
+  padding-right: 150px;
   float: right;
   width: 70%;
 }
-.p-1, .p-2{
+
+.p-1{
+  padding-top: 20px;
   text-align: left;
   float: right;
-  margin-top: 0;
   width: 88%;
   padding-right: 100px
 }
 
-.section-3{
- color: #22223b;
+/*Work and images section*/
+
+.box-3{
+  display: inline-block;
+  color: #22223b;
   padding-right: 5px;
   border-right: 5px solid #22223B ;
   font-size: x-large;
-  width: 28%;
+  width: 384px;
   height: 400px;
   text-align: right;
 }
-.section-4{
+.box-4{
+  display: inline-block;
+  margin-right: 60px;
+  height: 395px;
+  float: right;
+  width: 64%;
+}
+
+.image-1{
+  position: absolute;
+  height: 175px;
+  width: 850px;
+  margin-right: 59px;
+  border: 1px solid blue;
+}
+
+.image-2{
+  height: 105px;
+  width: 425px;
+  margin-top: 178px;
+  position: absolute;
+  border: 1px solid rgb(247, 10, 176)
+}
+
+.image-3{
+  margin-left: 425px;
+  height: 105px;
+  width: 425px;
+  margin-top: 178px;
+  position: absolute;
+  border: 1px solid rgb(247, 10, 176)
+}
+.image-4{
+  height: 105px;
+  width: 425px;
+  margin-top: 286px;
+  position: absolute;
+  border: 1px solid rgb(247, 10, 176)
+}
+.image-5{
+  margin-left: 425px;
+  height: 105px;
+  width: 425px;
+  margin-top: 286px;
+  position: absolute;
+  border: 1px solid rgb(247, 10, 176)
+}
+
+/*
+.box-4{
   color: #22223b;
   padding-right: 5px;
   border-right: 5px solid #22223B ;
@@ -103,43 +162,8 @@ aside{
   width: 28%;
   height: 125px;
   text-align: right;
-}
-
-.aside-2 p{
-  padding-bottom: 10px;
-  border: 1px solid rgb(247, 10, 176)
-}
+}*/
 /*
-.image-1{
-  width: 100%;
-  height: 220px;
-  float: right;
-  border: 1px solid rgb(247, 10, 176)
-}
-.image-2{
-  width: 50%;
-  height: 100px;
-  float: left;
-  border: 1px solid rgb(247, 10, 176)
-}
-.image-3{
-  width: 49.5%;
-  height: 100px;
-  float: right;
-  border: 1px solid rgb(247, 10, 176)
-}
-.image-4{
-width: 50%;
-height: 100px;
-float: left;
-border: 1px solid rgb(247, 10, 176)
-}
-.image-5{
-width: 49.5%;
-height: 100px;
-float: right;
-border: 1px solid rgb(247, 10, 176)
-}
 .aside-3{
   width: 28%;
   height: 100px;
