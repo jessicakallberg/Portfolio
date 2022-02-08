@@ -91,7 +91,6 @@ section .pattern{
 .p-1{
   position: absolute;
   float: left;
-  border: 1px solid red;
   margin-right: 50px;
   padding-top: 5px;
   text-align: left;
@@ -107,7 +106,7 @@ section .pattern{
   border-right: 5px solid #22223B ;
   font-size: large;
   width: 384px;
-  height: 400px;
+  height: 495px;
   text-align: right;
 }
 .box-4{
@@ -117,50 +116,52 @@ section .pattern{
 }
 
 .image-1{
-
+  border: 4px solid #22223b;
   position: absolute;
-  height: 175px;
+  height: 255px;
   width: 850px;
   margin-right: 50px;
-  border: 1px solid blue;
 }
 
 .image-2{
-  height: 105px;
+  border: 4px solid #22223b;
+  height: 125px;
   width: 425px;
-  margin-top: 178px;
+  margin-top: 240px;
   position: absolute;
-  border: 1px solid rgb(247, 10, 176)
 }
 
 .image-3{
+  border: 4px solid #22223b;
+  background-color: #4A4E69;
   margin-left: 425px;
-  height: 105px;
+  height: 125px;
   width: 425px;
-  margin-top: 178px;
+  margin-top: 240px;
   position: absolute;
-  border: 1px solid rgb(247, 10, 176)
 }
 .image-4{
-  height: 105px;
+  border: 4px solid #22223b;
+  background-color: #9A8C98;
+  height: 125px;
   width: 425px;
-  margin-top: 286px;
+  margin-top: 365px;
   position: absolute;
-  border: 1px solid rgb(247, 10, 176)
 }
 .image-5{
+  border: 4px solid #22223b;
+  background-color: #C9ADA7;
   margin-left: 425px;
-  height: 105px;
+  height: 125px;
   width: 425px;
-  margin-top: 286px;
+  margin-top: 365px;
   position: absolute;
-  border: 1px solid rgb(247, 10, 176)
 }
 
 .box-5{
   padding-top: 5px;
   position: inline-block;
-  height: 140px;
+  height: 125px;
   color: #22223b;
   padding-right: 5px;
   border-right: 5px solid #22223B ;
@@ -172,14 +173,14 @@ section .pattern{
 
 .box-6{
   padding-left: 20px;
-  width: 60%;
+  width: 70%;
 }
 .nav-2{ 
   position: absolute;
   color: #22223b; 
   position: absolute;
   margin-right: 20px;
-  padding-top: 70px;
+  padding-top: 50px;
   text-align: left;
   width: 850px;
 }
